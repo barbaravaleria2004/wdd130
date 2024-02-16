@@ -34,14 +34,14 @@ nav {
     font-size: 1.2rem;
     display: flex;
 }
-nav {
+nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
-nav:link, nav a:visited {
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
