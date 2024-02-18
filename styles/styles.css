@@ -62,7 +62,7 @@ aside {
     text-align: center;
 }
 aside h2 {
-    position: relative;
+    position: absolute;
     top: 3px;
     left: 5px;
 }
