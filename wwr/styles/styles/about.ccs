@@ -23,15 +23,20 @@ a:visited {
 }
 
 /* Layout da navegação */
-#navigationbar {
+nav {
   background-color: black;
   padding: 15px;
   text-align: center;
 }
 
-#logo,
-#menu {
-  padding: 10px;
+#navigationbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu a {
+  margin-left: 15px;
 }
 
 /* Estilo geral */
@@ -143,4 +148,14 @@ section .gallery {
 
 section .gallery img {
   border-radius: 10px;
+}
+
+section .gallery figure {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+section .gallery figcaption {
+  color: white;
+  margin-top: 5px;
 }
