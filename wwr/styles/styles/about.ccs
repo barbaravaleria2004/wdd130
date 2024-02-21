@@ -110,7 +110,7 @@ main {
   width: 80%;
 }
 
-.hero-content h1,
+.hero-content h2,
 .hero-content article {
   width: 100%;
 }
